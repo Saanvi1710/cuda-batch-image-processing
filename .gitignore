@@ -1,0 +1,17 @@
+# CUDA build artifacts
+*.o
+*.obj
+*.exe
+gpu_image_processor
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / notebook files
+.vscode/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

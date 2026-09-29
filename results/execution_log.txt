@@ -1,0 +1,17 @@
+CUDA Image Processing - Execution Evidence
+=============================================
+
+Images processed: 100
+Image resolution: 1024x1024
+
+Average CPU processing time: 38.2229 ms/image
+Average GPU kernel time: 1.3817 ms/image
+Measured kernel speedup: 27.6640x
+
+Processing pipeline:
+1. Grayscale conversion
+2. 3x3 Gaussian blur
+3. Sobel edge detection
+
+GPU execution completed successfully.
+Performance results are stored in results/performance.csv.
